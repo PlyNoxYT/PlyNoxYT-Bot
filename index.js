@@ -1,20 +1,3 @@
-Skip to content
- 
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- @PlyNoxYT Sign out
-0
-0 16 alexpgm/video_file
- Code  Issues 0  Pull requests 0  Projects 0  Wiki  Insights
-video_file/index.js
-a6945cb  on 21 Sep
-@alexandrecoulay alexandrecoulay Update index.js
-     
-45 lines (35 sloc)  1.31 KB
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 const cfg require('./index.json'); // a garder en version desktop
@@ -59,16 +42,3 @@ bot.on('message', msg => {
 
 bot.login(cfg.token); //a garder en version desktop
 bot.login(token); //a garder en version heroku
-© 2018 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Press h to open a hovercard with more details.
